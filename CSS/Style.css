@@ -1,0 +1,94 @@
+*{
+    font-family: Arial,sans-serif;
+    font-size: 17px;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ececec;
+    margin-left: 15%;
+}
+/* HEADER */
+.logo-header{
+    height: 30px;
+}
+.icono{
+    height: 60px;
+}
+.container-header{
+    text-align: center;
+    display: flex;
+    padding: 20px;
+    gap: 30em;
+    justify-content: center;
+    justify-items: center;
+}
+
+/* Principal */
+h1{
+    font-size: 40px;
+}
+a{
+    color: #45BDA4;
+}
+
+input[type="text"],input[type="number"],input[type="email"]{
+    border: none;
+    border-bottom: 1px solid #45BDA4 ;
+    width: 400px;
+    color: #686868;
+    padding: 15px;
+}
+.container-principal{
+    border-radius: 50px;
+    width: 80%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+
+}
+.container1{
+    padding: 50px;
+    background-color: white;
+    text-align: center;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.container2{
+    align-items: center;
+    padding-top: 15px;
+    background-color: #202020;
+    color: white;
+    height: 150px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.boton{
+    background-color: #45BDA4;
+    color: white;
+    border-radius: 30px;
+    border: none;
+    padding: 20px;
+}
+
+.centrado{
+    text-align: center}
+.amarillo{
+    color: #F9B801;
+    font-size: 50px;
+}
+.flex{
+    display: flex;
+    gap: 2.5em;
+}
+.padding{
+    padding-top: 40px;
+}
+.izquierda{
+    text-align: left;
+    margin-left: 150px;
+}
